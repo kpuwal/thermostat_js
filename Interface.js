@@ -1,10 +1,10 @@
 $(document).ready(function() {
-        
+
   var thermostat = new Thermostat();
 
   updateTemp();
   updatePowerSavingStatus();
-  
+
   $('#temperature-increase').click(function(){
     thermostat.increase();
     updateTemp();
@@ -12,12 +12,12 @@ $(document).ready(function() {
 
   $('#temperature-decrease').click(function(){
     thermostat.decrease();
-    updateTemp();        
+    updateTemp();
   });
 
   $('#temperature-reset').click(function(){
     thermostat.reset();
-    updateTemp();        
+    updateTemp();
     });
 
   $('#power-saving-switch').click(function(){

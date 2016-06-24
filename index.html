@@ -3,6 +3,8 @@
 
   <head>
     <title>The PS OFF/ON Thermostat!</title>
+    <link href="public/css/colours.css" rel="stylesheet" type="text/css">
+    <link href="public/css/normalize.css" rel="stylesheet" type="text/css">
     <script src="jquery-3.0.0.min.js"></script>
   </head>
 
@@ -10,14 +12,14 @@
     <div id='background'>
       <div id='container'>
         <h1 id='temperature'></h1>
-        <button id='temperature-increase' type='button'>+</button> 
-        <button id='temperature-decrease' type='button'>-</button> 
-        <button id='temperature-reset' type='button'>Reset</button> 
+        <button id='temperature-increase' type='button'>+</button>
+        <button id='temperature-decrease' type='button'>-</button>
+        <button id='temperature-reset' type='button'>Reset</button>
         <p>
           The power saving mode is <span id='power-saving-mode'></span>. <button id='power-saving-switch' type='button'>Change</button>
         </p>
         <section>
-          Find the temperature in your city: 
+          Find the temperature in your city:
           <select id='selected-city'>
             <option value='london'>London</option>
             <option value='new-york'>New York</option>
@@ -30,10 +32,8 @@
     </div>
     <script src="src/Thermostat.js"></script>
     <script src="interface.js"></script>
-    <link href="colours.css" rel="stylesheet" type="text/css">
 
     </script>
   </body>
 
 </html>
-

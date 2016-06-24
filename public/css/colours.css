@@ -1,0 +1,53 @@
+.low-usage {
+  color: green;
+  border: thin solid gray;
+  /*text-align: center;*/
+  width: 95px;
+}
+
+.medium-usage {
+  color: orange;
+  border: thin solid gray;
+  /*text-align: center;*/
+  width: 95px;
+}
+
+.high-usage {
+  color: red;
+  border: thin solid #f6f6f6;
+  /*text-align: center;*/
+  width: 95px;
+}
+
+div#background {
+  background-image: url('../images/background_test.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: inherit;
+
+
+}
+
+#container {
+  /*height: 50%;*/
+  width: 34.7%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  display: block;
+  /*border: solid gray 1px;*/
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#temperature {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#power-saving-mode {
+  color: red;
+}
